@@ -273,13 +273,13 @@ variable "number_of_computed_egress_with_source_security_group_id" {
 # Tagging
 #########
 variable "project" {
-  description = "Nombre del proyecto que consume este módulo (usado para tagging)"
+  description = "Name of the project consuming this module (used for tagging)"
   type        = string
   default     = "poc"
 }
 
 variable "environment" {
-  description = "Ambiente lógico (ej. nonproduction, production) usado para tagging"
+  description = "Logical environment (e.g. nonproduction, production) used for tagging"
   type        = string
   default     = "nonproduction"
 }
